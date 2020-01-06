@@ -46,11 +46,7 @@
 
   text-align: center;
 }
-.header button {
-  min-height: 5vh;
-  min-width: 10vh;
-  border-radius: 25px;
-
+.header a {
   display: inline-block;
   margin-right: 1vw;
   margin-left: 1vw;
@@ -60,11 +56,8 @@
 
   font-size: medium;
 }
-button {
+a {
   outline: none;
-}
-button:hover {
-  background-color: aqua;
 }
 
 #container-main {
@@ -146,17 +139,50 @@ button:hover {
 
   text-align: center;
 }
-.footer button {
-  min-height: 5vh;
-  min-width: 10vh;
-  border-radius: 25px;
-
+.footer a {
   display: inline-block;
   margin-right: 1vw;
   margin-left: 1vw;
-  margin-top: 2.5vh;
+  margin-top: 2vh;
 
   cursor: pointer;
 
   font-size: medium;
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+}
+a.button1:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a.button2 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  font-weight: normal;
+  text-align: center;
+}
+a.button2:hover {
+  filter: invert(15%) sepia(63%) saturate(7239%) hue-rotate(357deg)
+    brightness(99%) contrast(115%);
+}
+
+#custom {
+  height: 40px;
+  width: 40px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(53deg) brightness(105%)
+    contrast(102%);
 }
