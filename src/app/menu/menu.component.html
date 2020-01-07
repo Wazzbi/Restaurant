@@ -1,4 +1,13 @@
-<p>
-  menu works!
-</p>
-<button (click)="goBack()">go back</button>
+<div id="container">
+  <div class="header">header<button (click)="goBack()">go back</button></div>
+  <div class="main">
+    <div class="text">
+      <div *ngFor="let dish of menu">
+        <span>
+          <b>{{ dish.name }}</b> &nbsp; {{ dish.price }},- CZK
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="footer">footer</div>
+</div>

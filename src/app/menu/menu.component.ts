@@ -1,3 +1,5 @@
+import { Dish } from "./../dish";
+import { FoodInfoService } from "./../food-info.service";
 import { Component, OnInit } from "@angular/core";
 import { Location } from "@angular/common";
 
@@ -7,11 +9,23 @@ import { Location } from "@angular/common";
   styleUrls: ["./menu.component.css"]
 })
 export class MenuComponent implements OnInit {
-  constructor(private location: Location) {}
+  menu: Dish[];
 
-  ngOnInit() {}
+  constructor(
+    private location: Location,
+    private foodService: FoodInfoService
+  ) {}
+
+  ngOnInit() {
+    this.getFoods();
+  }
 
   goBack(): void {
     this.location.back();
+  }
+
+  getFoods(): void {
+    this.menu = this.foodService.getFoods();
+    console.log(`položek v menu ${this.menu.length}`);
   }
 }

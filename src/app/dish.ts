@@ -1,3 +1,4 @@
 export class Dish {
-  constructor(public name: String) {}
+  name: String;
+  price: Number;
 }

@@ -97,10 +97,6 @@ a {
   display: table-cell;
   vertical-align: middle;
 
-  -webkit-box-shadow: inset 0px 100px 30px -50px rgb(44, 44, 44),
-    inset 0px -100px 30px -50px rgb(44, 44, 44);
-  -moz-box-shadow: inset 0px 100px 30px -50px rgb(44, 44, 44),
-    inset 0px -100px 30px -50px rgb(44, 44, 44);
   box-shadow: inset 0px 100px 30px -50px rgb(44, 44, 44),
     inset 0px -100px 30px -50px rgb(44, 44, 44);
 }
