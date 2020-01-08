@@ -48,7 +48,7 @@
 
 @keyframes mymove {
   0% {
-    background: rgb(44, 44, 44);
+    background: rgba(44, 44, 44, 0.925);
   }
   100% {
     background: rgba(97, 97, 97, 0.37);
