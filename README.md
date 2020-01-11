@@ -1,6 +1,6 @@
 # See result
 restaurant-4528a.firebaseapp.com
--ready home page and menu only
+(ready 'home page' and 'menu' only)
 
 # Restaurant
 
