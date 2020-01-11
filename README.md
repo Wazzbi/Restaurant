@@ -1,3 +1,7 @@
+# See result
+restaurant-4528a.firebaseapp.com
+-ready home page and menu only
+
 # Restaurant
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
